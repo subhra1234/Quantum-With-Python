@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 from scipy.linalg import eigh_tridiagonal 
 from matplotlib.animation import FuncAnimation
 l=2
-j=0
 V= lambda x: 1000 if 1<x<1.5 else 0
 V= np.vectorize(V)
 x= np.linspace(-5,5,1000)
